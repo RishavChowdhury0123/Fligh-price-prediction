@@ -1,0 +1,25 @@
+.stMarkdown span {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(216, 68, 68)
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stSelectbox label, .stRadio label, .stSlider label{
+    font-size: 20px;
+    color: darkcyan;
+}
+
+.stSelectbox div {
+    border-radius:20px;
+}
+
+.stButton button{
+    border-color: darkslategray;
+    border-radius: 25px;
+    background-color: transparent;
+    
+}

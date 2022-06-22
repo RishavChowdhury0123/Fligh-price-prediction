@@ -4,8 +4,6 @@ import streamlit as st
 import numpy as np
 import pickle
 
-from yaml import load
-
 st. set_page_config(layout="wide")
 
 # load model.pkl file

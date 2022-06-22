@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import pickle
+import sklearn
 
 st. set_page_config(layout="wide")
 

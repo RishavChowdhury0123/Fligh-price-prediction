@@ -9,12 +9,10 @@ st. set_page_config(layout="wide")
 # load model.pkl file
 @st.cache(allow_output_mutation=True, show_spinner=False)
 def load_data():
-    path= r'C:\Users\DELL\Python files\Flight Price Prediction\pipe.pkl'
-    with open(path, 'rb') as ref:
+    with open('pipe.pkl', 'rb') as ref:
         pipe= pickle.load(ref)
 
-    path= r'C:\Users\DELL\Python files\Flight Price Prediction\df.pkl'
-    with open(path, 'rb') as ref:
+    with open('df.pkl', 'rb') as ref:
         df= pickle.load(ref).drop('price', axis=1)
 
     return pipe, df
